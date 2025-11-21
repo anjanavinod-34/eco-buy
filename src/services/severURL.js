@@ -1,2 +1,2 @@
-const serverURL='http://localhost:3000'
+const serverURL='https://eco-buy-server.onrender.com'
 export default serverURL
