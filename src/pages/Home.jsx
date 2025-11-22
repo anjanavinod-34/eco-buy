@@ -42,7 +42,7 @@ function Home() {
   return (
     <>
       <Header />
-      <div className="m-5 pt-5 text-center " style={{ minHeight: '100vh' ,backgroundImage:'url(https://png.pngtree.com/thumb_back/fh260/background/20250416/pngtree-green-recycling-symbol-made-of-plastic-wood-and-leaves-on-a-image_17200298.jpg)'}} >
+      <div style={{backgroundImage:'url(https://png.pngtree.com/thumb_back/fh260/background/20250416/pngtree-green-recycling-symbol-made-of-plastic-wood-and-leaves-on-a-image_17200298.jpg)'}}><div className="m-5 pt-5 text-center " style={{ minHeight: '100vh' }} >
 
         <div className="d-flex justify-content-center align-items-center flex-column" style={{ paddingTop: '200px' }}>
           <h1 className="fw-bolder fs-1"><img src={logo} width={'14%'} alt="" />EcoBuy</h1>
@@ -75,7 +75,7 @@ function Home() {
         </div>
 
 
-      </div>
+      </div></div>
     </>
   )
 }
