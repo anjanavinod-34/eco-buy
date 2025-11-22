@@ -42,14 +42,16 @@ function Home() {
   return (
     <>
       <Header />
-      <div style={{backgroundImage:'url(https://png.pngtree.com/thumb_back/fh260/background/20250416/pngtree-green-recycling-symbol-made-of-plastic-wood-and-leaves-on-a-image_17200298.jpg)'}}><div className="m-5 pt-5 text-center " style={{ minHeight: '100vh' }} >
 
-        <div className="d-flex justify-content-center align-items-center flex-column" style={{ paddingTop: '200px' }}>
-          <h1 className="fw-bolder fs-1"><img src={logo} width={'14%'} alt="" />EcoBuy</h1>
-          <h3>
+        <div style={{backgroundAttachment:'fixed',backgroundSize:"cover",backgroundImage:'url(https://static.vecteezy.com/system/resources/previews/022/506/525/non_2x/green-energy-sustainable-industry-environmental-social-and-corporate-governance-concept-free-photo.jpg)'}}><div className="m-5 pt-5 text-center " style={{ minHeight: '100vh' }} >
+  
+
+        <div className="d-flex justify-content-center align-items-center flex-column" style={{ paddingTop:'200px' ,color:'yellow'}}>
+          <h1 style={{fontSize:"100px"}} className="fw-bolder">EcoBuy</h1>
+          <h2 style={{color:'black'}}>
             Track your sustainable purchases. Reduce carbon impact.
             Make every choice count.
-          </h3>
+          </h2>
         </div>
 
 

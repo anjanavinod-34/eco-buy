@@ -1,5 +1,5 @@
 import commonAPI from "./commonAPI";
-import serverURL from "./severURL";
+import serverURL from "./serverURL";
 
 //  to store API: post data from addpurchaselist page to server  in 'product' array 
  export const addPurchase= async (purchaseDetails)=>{

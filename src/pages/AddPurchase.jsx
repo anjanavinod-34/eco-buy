@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import { addPurchase } from '../services/allAPIs'
 import { Link, useNavigate } from 'react-router-dom';
 import logo from '../assets/logo.png'
+import Swal from 'sweetalert2';
 function AddPurchase() {
   const navigate = useNavigate()
   const [purchaseDetails, setPurchase] = useState({
@@ -34,11 +35,21 @@ function AddPurchase() {
         const result = await addPurchase(purchaseDetails)
         console.log(result);
         if (result.status == 201) {
-          alert("Purchase Successfully Added")
+          Swal.fire({
+                    icon: "success",
+                    title: "Success!!...",
+                    text: "Purchase added Successfully!!!!",
+                  
+                  });
           navigate('/purchase')
         }
         else {
-          alert("Purchase Adding Failed!!")
+        Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "Purchase adding Failed!.."
+                  
+                  });
         }
 
 

@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 import { Link } from 'react-router-dom';
 function Header() {
     return (
-        <> <Navbar expand="lg"style={{backgroundColor:"#2C5E1A"}} className='fixed-top'>
+        <> <Navbar expand="lg"style={{backgroundColor:"beige"}} className='fixed-top'>
 
             <Navbar.Brand href="/">
             <img style={{backgroundColor:"beige"}} className='rounded-5' width={'79px'} height={'60px'} src={logo} alt="ecobuy logo" /></Navbar.Brand>
